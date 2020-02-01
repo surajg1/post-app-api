@@ -6,9 +6,9 @@ const userRoutes = require('./routes/user');
 const path = require("path");
 const app = express();
 
+// mongodb+srv://surajgholap:'s'@cluster0-kmd7r.mongodb.net/posts
 
-
-mongoose.connect('mongodb+srv://surajgholap:'+ process.env.MONO_ATLAS_PW +'@cluster0-kmd7r.mongodb.net/posts', {useNewUrlParser: true})
+mongoose.connect('mongodb+srv://surajgholap:srj@9604@cluster0-kmd7r.mongodb.net/posts', {useNewUrlParser: true})
             .then(()=>{
                 console.log("DataBase connectd");
             }).catch(()=>{

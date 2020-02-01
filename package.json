@@ -1,7 +1,7 @@
 {
   "name": "social-post",
   "version": "0.0.0",
-  "private": true,
+  "main": "server.js",
   "scripts": {
     "start": "node ./server.js"
   },
@@ -18,5 +18,15 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/surajg1/post-app-api.git"
-}
+  },
+  "bugs": {
+    "url": "https://github.com/surajg1/post-app-api/issues"
+  },
+  "homepage": "https://github.com/surajg1/post-app-api#readme",
+  "description": "social post",
+  "keywords": [
+    ""
+  ],
+  "author": "",
+  "license": "ISC"
 }
