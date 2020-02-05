@@ -14,7 +14,7 @@ exports.createUser = (req, res, next)=> {
                     password: hash
                 })
                 user.save().then(result =>{
-                    res.stats(201).json({
+                    res.status(201).json({
                         message: 'User Created',
                         result: result
                     });
